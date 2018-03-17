@@ -29,25 +29,25 @@ ES6之前的继承方案，可继承ES6的class，100%兼容babel和Node，兼�
 通过npm下载安装代码
 
 ```bash
-$ npm install --save-dev inherits_js
+$ npm install --save-dev @yanhaijing/inherits_js
 ```
 
 如果你是node环境
 
 ```js
-var inherits = require('inherits_js').inherits;
+var inherits = require('@yanhaijing/inherits_js').inherits;
 ```
 
 如果你是webpack等环境
 
 ```js
-import { inherits } from 'inherits_js';
+import { inherits } from '@yanhaijing/inherits_js';
 ```
 
 如果你是requirejs环境
 
 ```js
-requirejs(['node_modules/inherits_js/dist/index.aio.js'], function (inherits_js) {
+requirejs(['node_modules/@yanhaijing/inherits_js/dist/index.aio.js'], function (inherits_js) {
     var inherits = inherits_js.inherits;
 })
 ```
@@ -55,7 +55,7 @@ requirejs(['node_modules/inherits_js/dist/index.aio.js'], function (inherits_js)
 如果你是浏览器环境
 
 ```html
-<script src="node_modules/inherits_js/dist/index.aio.js"></script>
+<script src="node_modules/@yanhaijing/inherits_js/dist/index.aio.js"></script>
 
 <script>
 var inherits = inherits_js.inherits;
@@ -93,7 +93,7 @@ $ npm run release
 将新版本发布到npm
 
 ```bash
-$ npm publish
+$ npm publish --access=public
 ```
 可能需要你自己修改的地方如下：
 
