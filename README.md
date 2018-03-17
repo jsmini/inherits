@@ -63,7 +63,7 @@ var inherits = inherits_js.inherits;
 ```
 
 ## 文档
-[API](./doc/api.md)
+[API](./doc/api.md)，[相关原理博文](http://yanhaijing.com/javascript/2014/11/09/object-inherit-of-js/)
 
 ## 贡献指南
 首次运行需要先安装依赖
