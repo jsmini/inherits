@@ -84,7 +84,7 @@ $ npm run build
 $ npm test
 ```
 
-修改package.json中的版本号，发布新版
+修改package.json中的版本号，修改README.md中的版本号，修改CHANGELOG.md，然后发布新版
 
 ```bash
 $ npm run release
