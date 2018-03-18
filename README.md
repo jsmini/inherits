@@ -95,10 +95,12 @@ $ npm run release
 ```bash
 $ npm publish --access=public
 ```
+
 可能需要你自己修改的地方如下：
 
+- README.md 中的信息
 - package.json 中的信息
-- config/rollup.config.aio.js 中的name信息
+- config/rollup.js 中的信息
 - test/browser/index.html 中的仓库名称
 
 ## 更新日志
