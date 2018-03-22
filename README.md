@@ -29,7 +29,7 @@ ES6之前的继承方案，可继承ES6的class，100%兼容babel和Node，兼�
 通过npm下载安装代码
 
 ```bash
-$ npm install --save-dev @yanhaijing/inherits_js
+$ npm install --save @yanhaijing/inherits_js
 ```
 
 如果你是node环境
