@@ -17,6 +17,7 @@ describe('单元测试', function() {
         function B() {}
 
         inherits(B, A);
+        inherits(B, {});
 
         B.prototype.bbb = 1;
 
@@ -53,6 +54,7 @@ describe('单元测试', function() {
         function B() {}
 
         inheritsByES3(B, A);
+        inheritsByES3(B, {});
 
         B.prototype.bbb = 1;
 
@@ -89,6 +91,7 @@ describe('单元测试', function() {
         function B() {}
 
         inheritsByForce(B, A);
+        inheritsByForce(B, {});
 
         B.prototype.bbb = 1;
 

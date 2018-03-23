@@ -1,6 +1,19 @@
-import { setPrototypeOf } from './util.js';
+import { isFunction } from '@yanhaijing/is_js';
+
+import { setPrototypeOf, error } from './util.js';
 
 export function inherits(C, P) {
+    // 如果不为函数，则不进行操作
+    if (!isFunction(C)) {
+        error('inherits first param must is function');
+        return;
+    }
+
+    if (!isFunction(P)) {
+        error('inherits second param must is function');
+        return;
+    }
+
     // 等同于临时构造函数
     C.prototype = Object.create(P.prototype);
 

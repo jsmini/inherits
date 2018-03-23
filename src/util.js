@@ -1,3 +1,5 @@
+import { isFunction } from '@yanhaijing/is_js';
+
 export function create(prototype) {
     //临时构造函数
     var F = function (){};
@@ -21,5 +23,11 @@ export function setPrototypeOf(C, P, force) {
                 C[k] = P[k];
             }
         }
+    }
+}
+
+export function error(...args) {
+    if (console && isFunction(console.error)) {
+        console.error('error:', ...args);
     }
 }

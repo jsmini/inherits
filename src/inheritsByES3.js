@@ -1,6 +1,19 @@
-import { create, setPrototypeOf } from './util.js';
+import { isFunction } from '@yanhaijing/is_js';
+
+import { create, setPrototypeOf, error } from './util.js';
 
 export function inherits(C, P) {
+    // 如果不为函数，则不进行操作
+    if (!isFunction(C)) {
+        error('inherits first param must is function');
+        return;
+    }
+
+    if (!isFunction(P)) {
+        error('inherits second param must is function');
+        return;
+    }
+
     C.prototype = create(P.prototype);
 
     C.prototype.constructor = C;//修复constructor
