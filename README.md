@@ -63,7 +63,7 @@ var inherits = inherits_js.inherits;
 ```
 
 ## 文档
-[API](./doc/api.md)，[相关原理博文](http://yanhaijing.com/javascript/2014/11/09/object-inherit-of-js/)
+[API](https://github.com/yanhaijing/inherits.js/blob/master/doc/api.md)，[相关原理博文](http://yanhaijing.com/javascript/2014/11/09/object-inherit-of-js/)
 
 ## 贡献指南
 首次运行需要先安装依赖
@@ -104,10 +104,10 @@ $ npm publish --access=public
 - test/browser/index.html 中的仓库名称
 
 ## 更新日志
-[CHANGELOG.md](./CHANGELOG.md)
+[CHANGELOG.md](https://github.com/yanhaijing/inherits.js/blob/master/CHANGELOG.md)
 
 ## 计划列表
-[TODO.md](./TODO.md)
+[TODO.md](https://github.com/yanhaijing/inherits.js/blob/master/TODO.md)
 
 ## 谁在使用
 
