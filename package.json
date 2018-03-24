@@ -1,6 +1,6 @@
 {
   "name": "@yanhaijing/inherits_js",
-  "version": "0.2.0-1",
+  "version": "0.2.1",
   "description": "最好用的js第三方库脚手架",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
