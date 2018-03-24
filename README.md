@@ -110,4 +110,3 @@ $ npm publish --access=public
 [TODO.md](https://github.com/yanhaijing/inherits.js/blob/master/TODO.md)
 
 ## 谁在使用
-
