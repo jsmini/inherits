@@ -58,7 +58,7 @@ requirejs(['node_modules/@yanhaijing/inherits_js/dist/index.aio.js'], function (
 <script src="node_modules/@yanhaijing/inherits_js/dist/index.aio.js"></script>
 
 <script>
-var inherits = inherits_js.inherits;
+    var inherits = inherits_js.inherits;
 </script>
 ```
 
