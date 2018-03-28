@@ -1,17 +1,15 @@
 import { isFunction } from '@yanhaijing/is_js';
 
-import { setPrototypeOf, error } from './util.js';
+import { setPrototypeOf } from './util.js';
 
 export function inherits(C, P) {
     // 如果不为函数，则不进行操作
     if (!isFunction(C)) {
-        error('inherits first param must is function');
-        return;
+        throw new TypeError('inherits first param must is function');
     }
 
     if (!isFunction(P)) {
-        error('inherits second param must is function');
-        return;
+        throw new TypeError('inherits second param must is function');
     }
 
     // 等同于临时构造函数

@@ -17,12 +17,27 @@ describe('单元测试', function() {
         function B() {}
 
         inherits(B, A);
-        inherits(B, {});
 
         B.prototype.bbb = 1;
 
         var a = new A;
         var b = new B;
+
+        
+
+        it('param', function() {
+            try {
+                inherits();
+            } catch (e) {
+                expect(e.message).to.equal('inherits first param must is function');
+            }
+
+            try {
+                inherits(B);
+            } catch (e) {
+                expect(e.message).to.equal('inherits second param must is function');
+            }
+        });
 
         it('object', function() {
             expect(a instanceof A).to.equal(true);
@@ -54,12 +69,25 @@ describe('单元测试', function() {
         function B() {}
 
         inheritsByES3(B, A);
-        inheritsByES3(B, {});
 
         B.prototype.bbb = 1;
 
         var a = new A;
         var b = new B;
+
+        it('param', function() {
+            try {
+                inheritsByES3();
+            } catch (e) {
+                expect(e.message).to.equal('inherits first param must is function');
+            }
+
+            try {
+                inheritsByES3(B);
+            } catch (e) {
+                expect(e.message).to.equal('inherits second param must is function');
+            }
+        });
 
         it('object', function() {
             expect(a instanceof A).to.equal(true);
@@ -91,12 +119,25 @@ describe('单元测试', function() {
         function B() {}
 
         inheritsByForce(B, A);
-        inheritsByForce(B, {});
 
         B.prototype.bbb = 1;
 
         var a = new A;
         var b = new B;
+
+        it('param', function() {
+            try {
+                inheritsByForce();
+            } catch (e) {
+                expect(e.message).to.equal('inherits first param must is function');
+            }
+
+            try {
+                inheritsByForce(B);
+            } catch (e) {
+                expect(e.message).to.equal('inherits second param must is function');
+            }
+        });
 
         it('object', function() {
             expect(a instanceof A).to.equal(true);
