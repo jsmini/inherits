@@ -1,6 +1,6 @@
 {
   "name": "@yanhaijing/inherits_js",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "ES6之前的继承方案，可继承ES6的class，100%兼容babel和Node，兼容ES3和IE6",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
