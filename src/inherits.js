@@ -1,4 +1,4 @@
-import { isFunction } from '@yanhaijing/is_js';
+import { isFunction } from '@jsmini/is';
 
 import { setPrototypeOf } from './util.js';
 

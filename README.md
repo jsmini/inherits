@@ -1,4 +1,4 @@
-# [inherits.js](https://github.com/yanhaijing/inherits.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.4.0-orange.svg)](https://www.npmjs.com/package/@yanhaijing/inherits_js) [![Build Status](https://travis-ci.org/yanhaijing/inherits.js.svg?branch=master)](https://travis-ci.org/yanhaijing/inherits.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/inherits.js/blob/master/LICENSE)
+# [inherits](https://github.com/jsmini/inherits) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.5.0-orange.svg)](https://www.npmjs.com/package/@jsmini/inherits) [![Build Status](https://travis-ci.org/jsmini/inherits.svg?branch=master)](https://travis-ci.org/jsmini/inherits) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/inherits/blob/master/LICENSE)
 ES6之前的继承方案，可继承ES6的class，100%兼容babel和Node，兼容ES3和IE6
 
 ## 兼容性
@@ -29,41 +29,41 @@ ES6之前的继承方案，可继承ES6的class，100%兼容babel和Node，兼�
 通过npm下载安装代码
 
 ```bash
-$ npm install --save @yanhaijing/inherits_js
+$ npm install --save @jsmini/inherits
 ```
 
 如果你是node环境
 
 ```js
-var inherits = require('@yanhaijing/inherits_js').inherits;
+var inherits = require('@jsmini/inherits').inherits;
 ```
 
 如果你是webpack等环境
 
 ```js
-import { inherits } from '@yanhaijing/inherits_js';
+import { inherits } from '@jsmini/inherits';
 ```
 
 如果你是requirejs环境
 
 ```js
-requirejs(['node_modules/@yanhaijing/inherits_js/dist/index.aio.js'], function (inherits_js) {
-    var inherits = inherits_js.inherits;
+requirejs(['node_modules/@jsmini/inherits/dist/index.aio.js'], function (jsmini_inherits) {
+    var inherits = jsmini_inherits.inherits;
 })
 ```
 
 如果你是浏览器环境
 
 ```html
-<script src="node_modules/@yanhaijing/inherits_js/dist/index.aio.js"></script>
+<script src="node_modules/@jsmini/inherits/dist/index.aio.js"></script>
 
 <script>
-    var inherits = inherits_js.inherits;
+    var inherits = jsmini_inherits.inherits;
 </script>
 ```
 
 ## 文档
-[API](https://github.com/yanhaijing/inherits.js/blob/master/doc/api.md)，[相关原理博文](http://yanhaijing.com/javascript/2014/11/09/object-inherit-of-js/)
+[API](https://github.com/jsmini/inherits/blob/master/doc/api.md)，[相关原理博文](http://yanhaijing.com/javascript/2014/11/09/object-inherit-of-js/)
 
 ## 贡献指南
 首次运行需要先安装依赖
@@ -104,9 +104,9 @@ $ npm publish --access=public
 - test/browser/index.html 中的仓库名称
 
 ## 更新日志
-[CHANGELOG.md](https://github.com/yanhaijing/inherits.js/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/inherits/blob/master/CHANGELOG.md)
 
 ## 计划列表
-[TODO.md](https://github.com/yanhaijing/inherits.js/blob/master/TODO.md)
+[TODO.md](https://github.com/jsmini/inherits/blob/master/TODO.md)
 
 ## 谁在使用
