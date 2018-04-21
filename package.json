@@ -24,6 +24,14 @@
   "bugs": {
     "url": "https://github.com/jsmini/inherits/issues"
   },
+  "keywords": [
+    "inherits",
+    "inheritance",
+    "class",
+    "klass",
+    "oop",
+    "object-oriented"
+  ],
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-preset-env": "1.6.1",
