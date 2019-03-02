@@ -1,6 +1,6 @@
 {
   "name": "@jsmini/inherits",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "ES6之前的继承方案，可继承ES6的class，100%兼容babel和Node，兼容ES3和IE6",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
