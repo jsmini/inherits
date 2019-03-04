@@ -1,6 +1,6 @@
 {
   "name": "@jsmini/inherits",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "ES6之前的继承方案，可继承ES6的class，100%兼容babel和Node，兼容ES3和IE6",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
@@ -46,6 +46,6 @@
     "rollup-plugin-node-resolve": "3.0.3"
   },
   "dependencies": {
-    "@jsmini/is": "0.4.0"
+    "@jsmini/is": "^0.8.1"
   }
 }
