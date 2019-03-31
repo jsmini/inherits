@@ -1,6 +1,8 @@
 # [inherits](https://github.com/jsmini/inherits) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.6.1-orange.svg)](https://www.npmjs.com/package/@jsmini/inherits) [![Build Status](https://travis-ci.org/jsmini/inherits.svg?branch=master)](https://travis-ci.org/jsmini/inherits) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/inherits/blob/master/LICENSE)
 ES6之前的继承方案，可继承ES6的class，100%兼容babel和Node，兼容ES3和IE6
 
+[English](./README.md) | 简体中文
+
 ## 兼容性
 单元测试保证支持如下环境：
 
@@ -61,7 +63,7 @@ requirejs(['node_modules/@jsmini/inherits/dist/index.aio.js'], function (jsmini_
 ## 文档
 [API](https://github.com/jsmini/inherits/blob/master/doc/api.md)，[相关原理博文](http://yanhaijing.com/javascript/2014/11/09/object-inherit-of-js/)
 
-## 贡献指南
+## 贡献指南  ![PRs welcome](<https://img.shields.io/badge/PRs-welcome-brightgreen.svg>)
 首次运行需要先安装依赖
 
 ```bash
