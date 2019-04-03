@@ -111,7 +111,7 @@ $ npm run rename # rename command
 ```
 
 ## Contributors
-[CHANGELOG.md](<https://github.com/jsmini/inherits/graphs/contributors>)
+[contributors](<https://github.com/jsmini/inherits/graphs/contributors>)
 
 ## CHANGELOG
 [CHANGELOG.md](https://github.com/jsmini/inherits/blob/master/CHANGELOG.md)
