@@ -101,7 +101,7 @@ $ npm publish --access=public
 - config/rollup.js 中的信息
 - test/browser/index.html 中的仓库名称
 
-# 贡献者列表
+## 贡献者列表
 
 [contributors](<https://github.com/jsmini/inherits/graphs/contributors>)
 
