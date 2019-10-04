@@ -1,6 +1,6 @@
 var expect = require('expect.js');
 
-var base = require('../dist/index.js');
+var base = require('../src/index.js');
 
 var inherits = base.inherits;
 var inheritsByES3 = base.inheritsByES3;

@@ -1,4 +1,11 @@
-# [inherits](https://github.com/jsmini/inherits) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.6.1-orange.svg)](https://www.npmjs.com/package/@jsmini/inherits) [![Build Status](https://travis-ci.org/jsmini/inherits.svg?branch=master)](https://travis-ci.org/jsmini/inherits) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/inherits/blob/master/LICENSE)
+# [inherits](https://github.com/jsmini/inherits)
+[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/inherits/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/jsmini/inherits.svg?branch=master)](https://travis-ci.org/jsmini/inherits)
+[![npm](https://img.shields.io/badge/npm-0.8.0-orange.svg)](https://www.npmjs.com/package/@jsmini/inherits)
+[![NPM downloads](http://img.shields.io/npm/dm/@jsmini/inherits.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/inherits)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/inherits.svg)](http://isitmaintained.com/project/jsmini/inherits "Percentage of issues still open")
+
 ES6之前的继承方案，可继承ES6的class，100%兼容babel和Node，兼容ES3和IE6
 
 [English](./README.md) | 简体中文
