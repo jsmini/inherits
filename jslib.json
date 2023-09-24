@@ -1,9 +1,9 @@
 {
-    "name": "inherits",
-    "npmname": "@jsmini/inherits",
-    "umdname": "jsmini_inherits",
-    "username": "jsmini",
-    "type": "js",
-    "lang": "zh",
-    "version": "1.3.0"
+  "name": "inherits",
+  "npmname": "@jsmini/inherits",
+  "umdname": "jsmini_inherits",
+  "username": "jsmini",
+  "type": "js",
+  "lang": "zh",
+  "version": "1.3.0"
 }
